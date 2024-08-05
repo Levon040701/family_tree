@@ -91,7 +91,7 @@ const members = [
     { id: 40, pids: [], fid: 37, mid: 38, name: 'Саша', fullName: 'Александр Сергеевич Жаров', gender: 'male', desc: '' },
     
     { id: 41, pids: [42], fid: 15, mid: 14, fullName: "Соня Мартиросовна Акопова", gender: "female", desc: 'Жила в Грозном' },
-    { id: 42, pids: [41], fullName: "Дядя Семён", gender: "male", desc: 'Маляр' },
+    { id: 42, pids: [41], name: 'Семён', fullName: "Дядя Семён", gender: "male", desc: 'Маляр' },
     { id: 43, pids: [44], fid: 42, mid: 41, fullName: "Никита Семёнович", gender: "male", desc: '' },
     { id: 44, pids: [43], fullName: "Арусяк", gender: "female", desc: '' },
     // { id: 45, pids: [44], fid: 43, mid: 44, fullName: "Эдик Никитич", gender: "male", desc: '' },
@@ -146,7 +146,7 @@ const members = [
     { id: 85, pids: [84], fullName: "Хаярпи", gender: "female", desc: '' },
     { id: 86, pids: [], fid: 84, mid: 85, name: 'Мика', fullName: "Микаел Арамович Князян", gender: "male", desc: '' },
     
-    { id: 87, pids: [88], name: 'Осик', fullName: "Овсанна Костя Меликсетян", gender: "female", desc: '' },
+    { id: 87, pids: [88], name: 'Осик', fullName: "Овсанна Константиновна Меликсетян", gender: "female", desc: '' },
     { id: 88, pids: [87], fid: 78, mid: 77, name: 'Арто', fullName: "Артавазд Левонович Азизян", gender: "male", desc: '' },
     { id: 89, pids: [90], fid: 88, mid: 87, fullName: "Анна Артаваздовна Азизян", gender: "female", desc: '' },
     { id: 90, pids: [89], fullName: "Карен", gender: "male", desc: '' },
