@@ -1,6 +1,6 @@
 FamilyTree.elements.customTextarea = function (data, editElement) {
     let id = FamilyTree.elements.generateId();
-    let value = data[editElement.binding].trim();
+    let value = data[editElement.binding];
     console.log(value);
     
 
@@ -33,10 +33,10 @@ let family = new FamilyTree("#tree", {
         photoBinding: 'ImgUrl',
         generateElementsFromFields: false,
         elements: [
-            {type: 'textbox', label: 'Full name', binding: 'fullName'},
+            {type: 'textbox', label: 'Полное имя', binding: 'fullName'},
             {type: 'textbox', label: '', binding: 'dates'},
-            {type: 'textbox', label: 'Age', binding: 'age'},
-            {type: 'customTextarea', label: 'Desc', binding: 'desc'},
+            {type: 'textbox', label: 'Возраст', binding: 'age'},
+            {type: 'customTextarea', label: 'Описание', binding: 'desc'},
         ]
     }
 });
